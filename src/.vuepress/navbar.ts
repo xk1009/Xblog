@@ -3,50 +3,89 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/demo/",
+  "/java/",
+  "/om/",
+  // {
+  //   text: "JAVA",
+  //   icon: "skill-icons:java-light",
+  //   prefix: "/java/",
+  //   children: [
+  //     {
+  //       text: "基础",
+  //       icon: "pen-to-square",
+  //       prefix: "foundation/",
+  //       children: [
+  //         { text: "苹果1", icon: "pen-to-square", link: "1" },
+  //         { text: "苹果2", icon: "pen-to-square", link: "2" },
+          
+  //       ],
+  //     },
+  //     {
+  //       text: "进阶",
+  //       icon: "pen-to-square",
+  //       prefix: "advanced/",
+  //       children: [
+  //         {
+  //           text: "香蕉 1",
+  //           icon: "pen-to-square",
+  //           link: "1",
+  //         },
+  //         {
+  //           text: "香蕉 2",
+  //           icon: "pen-to-square",
+  //           link: "2",
+  //         },
+         
+  //       ],
+  //     },
+
+  //   ],
+  // },
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
-    children: [
+    text: "数据",
+    icon: "skill-icons:mysql-light",
+    prefix: "/data/",
+    children:[
       {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
-  },
+        text: "MYSQL",
+        icon: "skill-icons:mysql-light",
+        prefix: "mysql/",
+        link: "",
+      },{
+        text: "REDIS",
+        icon: "skill-icons:redis-light",
+        prefix: "redis/",
+        link: ""
+      }
+    ]
+  }
+  // ,{
+  //   text: "O&M",
+  //   icon: "skill-icons:linux-light",
+  //   prefix: "/om/",
+  //   children:[
+  //     {
+  //       text: "LNUX",
+  //       icon: "skill-icons:linux-light",
+  //       prefix: "linux/",
+  //       link: ""
+  //     },{
+  //       text: "docker",
+  //       icon: "skill-icons:docker",
+  //       prefix: "docker/",
+  //       link: "Docker"
+  //     },{
+  //       text: "jenkins",
+  //       icon: "skill-icons:jenkins-light",
+  //       prefix: "jenkins/",
+  //       link: ""
+  //     },
+  //   ]
+  // }
+  ,
   {
-    text: "V2 文档",
-    icon: "book",
+    text: "文档",
+    icon: "line-md:document-list-twotone",
     link: "https://theme-hope.vuejs.press/zh/",
   },
 ]);

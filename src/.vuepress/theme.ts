@@ -1,19 +1,35 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
+
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+
   hostname: "https://mister-hope.github.io",
+  //深色模式切换
+  darkmode:"toggle",
+
+  //全屏
+  fullscreen: true,
+
+    //   watermarkPlugin({
+    //   enabled: true,
+    //   watermarkOptions: {
+    //     content: 'My Site',
+    //   },
+    // }),
+
 
   author: {
-    name: "Mr.Hope",
+    name: "XK",
     url: "https://mister-hope.com",
+    email:"564293991@qq.com"
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/images/Blogo.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -23,50 +39,31 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个开发者",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
+      Baidu: "https://wwwbaidu.com",
+      BiliBili: "https://www.bilibili.com/",
+      Dingding: "https://www.dingtalk.com/",
+      // Email: "564293991@qq.com",
       Gitee: "https://example.com",
       GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
       QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
+      // Qzone: "https://example.com",
       Steam: "https://example.com",
-      Twitter: "https://example.com",
       Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      // Zhihu: "https://example.com",
+      // VuePressThemeHope: {
+      //   icon: "/assets/icon/image.jpg",
+      //   link: "https://theme-hope.vuejs.press",
+      // },
     },
   },
 
@@ -81,9 +78,9 @@ export default hopeTheme({
   },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // metaLocales: {
+  //   editLink: "在 GitHub 上编辑此页",
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -131,9 +128,6 @@ export default hopeTheme({
     // },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
 
     // 在启用之前安装 chart.js
     // chartjs: true,
@@ -179,6 +173,11 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
 
+
+
+ 
+
+    
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
