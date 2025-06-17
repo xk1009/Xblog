@@ -2,6 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
+ {
+    text: "自我介绍",
+    icon: "circle-info",
+    link: "/intro",
+  },
   "/demo/",
   "/java/",
   "/om/",

@@ -27,7 +27,7 @@ export default hopeTheme({
     email:"564293991@qq.com"
   },
 
-  logo: "/assets/images/Blogo.jpg",
+  logo: "/assets/gifs/train.gif",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -46,7 +46,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个开发者",
+    description: "一个用代码和玄学对抗宇宙熵增的赛博道士",
     intro: "/intro.html",
     medias: {
       Baidu: "https://wwwbaidu.com",

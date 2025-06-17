@@ -7,6 +7,7 @@ title: 树下打盹儿
 # heroAlt: 图片描述
 heroText: 一花一世界
 bgImage: /assets/images/zrm379id0vg51.jpg
+# bgImage: /assets/videos/VID_20240119_183728.mp4
 heroFullScreen: true
 tagline: 袍哥人家从不拉稀摆带
 copyright: Copyright © 2025 XK
