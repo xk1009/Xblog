@@ -8,7 +8,7 @@ export default defineUserConfig({
   base: "/Xblog/",
 
   lang: "zh-CN",
-  title: "Blog",
+  title: "树下打盹儿",
   description: "许珂的博客",
 
   theme,

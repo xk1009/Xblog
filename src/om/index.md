@@ -1,9 +1,9 @@
 ---
 title: O&M
 index: false
-icon: skill-icons:linux-light
+icon: om
 category:
-  - 运维
+  - O&M
 ---
 
 <Catalog />
