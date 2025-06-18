@@ -1,5 +1,5 @@
 ---
-icon: circle-info
+icon: id-card
 title: 自我介绍
 ---
 

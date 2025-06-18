@@ -23,11 +23,11 @@ export default hopeTheme({
 
   author: {
     name: "XK",
-    url: "https://mister-hope.com",
+    url: "https://xk1009.github.io/Xblog",
     email:"564293991@qq.com"
   },
 
-  logo: "/assets/gifs/train.gif",
+  logo: "/assets/gifs/ys.gif",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -41,7 +41,7 @@ export default hopeTheme({
 
 
   // 页脚
-  footer: "默认页脚",
+  footer: "xk分享",
   displayFooter: true,
 
   // 博客相关
@@ -70,9 +70,22 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+   
+      "/secret/aliyun001.html": {
+        hint: "请输入访问密码",
+        password: "123",
+      },
+       "/secret/aws.html": {
+        hint: "请输入访问密码",
+        password: "123",
+      },
+      "/act/IOS/superSign.html": {
+        hint: "请输入访问密码",
+        password: "123",
+      },
+       "/act/ninePay.html": {
+        hint: "请输入访问密码",
+        password: "123",
       },
     },
   },

@@ -2,14 +2,27 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
- {
+  {
     text: "自我介绍",
-    icon: "circle-info",
+    icon: "id-card",
     link: "/intro",
   },
-  "/demo/",
   "/java/",
+  "/frontEnd/", 
+  "/data/",
   "/om/",
+  // {
+  //   text: "文档",
+  //   icon: "line-md:document-list-twotone",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
+  "/act/",
+  "/secret/",
+]);
+
+
+
+
   // {
   //   text: "JAVA",
   //   icon: "skill-icons:java-light",
@@ -22,7 +35,7 @@ export default navbar([
   //       children: [
   //         { text: "苹果1", icon: "pen-to-square", link: "1" },
   //         { text: "苹果2", icon: "pen-to-square", link: "2" },
-          
+
   //       ],
   //     },
   //     {
@@ -40,30 +53,30 @@ export default navbar([
   //           icon: "pen-to-square",
   //           link: "2",
   //         },
-         
+
   //       ],
   //     },
 
   //   ],
   // },
-  {
-    text: "数据",
-    icon: "skill-icons:mysql-light",
-    prefix: "/data/",
-    children:[
-      {
-        text: "MYSQL",
-        icon: "skill-icons:mysql-light",
-        prefix: "mysql/",
-        link: "",
-      },{
-        text: "REDIS",
-        icon: "skill-icons:redis-light",
-        prefix: "redis/",
-        link: ""
-      }
-    ]
-  }
+  // {
+  //   text: "数据",
+  //   icon: "database",
+  //   prefix: "/data/",
+  //   children:[
+  //     {
+  //       text: "MYSQL",
+  //       icon: "skill-icons:mysql-light",
+  //       prefix: "mysql/",
+  //       link: "",
+  //     },{
+  //       text: "REDIS",
+  //       icon: "skill-icons:redis-light",
+  //       prefix: "redis/",
+  //       link: ""
+  //     }
+  //   ]
+  // }
   // ,{
   //   text: "O&M",
   //   icon: "skill-icons:linux-light",
@@ -87,10 +100,3 @@ export default navbar([
   //     },
   //   ]
   // }
-  ,
-  {
-    text: "文档",
-    icon: "line-md:document-list-twotone",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
-]);
