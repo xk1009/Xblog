@@ -6,4 +6,5 @@ category:
   - java
 ---
 
+Write Once, Run Anywhere
 <Catalog />

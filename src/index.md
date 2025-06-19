@@ -15,34 +15,35 @@ copyright: Copyright © XK
 #   - url: /assets/videos/VID_20240119_183728
 
 projects:
-  - icon: skill-icons:github-dark
-    name: GitHub
-    link: https://github.com/
+  - icon: mug-hot
+    name: JAVA
+    desc: java
+    link: /java/
 
-  - icon: hugeicons:search-02
-    name: 百度
-    desc: 百度一下
-    link: https://www.baidu.com/
+  - icon: eye
+    name: 前端
+    desc: 前端知识汇总
+    link: /frontEnd/
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: database
+    name: 数据
+    desc: 数据库知识汇总
+    link: /data/
 
-  # - icon: newspaper
-  #   name: 文章名称
-  #   desc: 文章详细描述
-  #   link: https://你的文章链接
+  - icon: om
+    name: O&M
+    desc: 运维知识汇总
+    link: /om/
 
-  # - icon: user-group
-  #   name: 伙伴名称
-  #   desc: 伙伴详细介绍
-  #   link: https://你的伙伴链接
+  - icon: newspaper
+    name: 文章
+    desc: 随便写写
+    link: /act/
 
-  - icon: svg-spinners:wind-toy
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  # - icon: svg-spinners:wind-toy
+  #   name: 自定义项目
+  #   desc: 自定义详细介绍
+  #   link: https://你的自定义链接
 
 footer: 页脚文字
 ---
