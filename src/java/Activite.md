@@ -15,6 +15,9 @@ star: true
 pageview: true
 ---
 
+<!-- <VidStack src="https://vp-demo.u2sb.com/video/caminandes_03_llamigos_720p.mp4" /> -->
+
+
 ## activit 流程
 解决更新业务流程，不需要更新源代码，通过更新流程定义图来实现流程更新
 流程图就是一个xml文件，解析xml，获取每个节点信息

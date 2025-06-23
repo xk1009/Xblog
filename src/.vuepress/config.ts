@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-import { watermarkPlugin } from '@vuepress/plugin-watermark'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 import theme from "./theme.js";
 
@@ -13,12 +13,22 @@ export default defineUserConfig({
 
   theme,
   plugins: [
-    watermarkPlugin({
-      enabled: true,
-      watermarkOptions: {
-        content: '树下打盹儿',
-      },
-    }),
+    // watermarkPlugin({
+    //   enabled: true,
+    //   watermarkOptions: {
+    //     content: '树下打盹儿',
+    //   },
+    // }),
+    //  searchPlugin({
+    //   // 配置项
+    //        locales: {
+    //     '/': {
+    //       placeholder: '搜索',
+    //     },
+        
+    //   },
+      
+    // }),
   ],
   
 

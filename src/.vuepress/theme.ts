@@ -1,6 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -179,13 +178,40 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: [
+        "ArtPlayer",
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "Share",
+        "SiteInfo",
+        "StackBlitz",
+        "VPBanner",
+        "VPCard",
+        "VidStack",
+      ]
     },
 
     icon: {
       prefix: "fa6-solid:",
     },
 
+    watermark: {
+      watermarkOptions: {
+        content: "树下打盹儿",
+        movable: true,
+        // 其他选项
+      },
+    },
+
+    search:{
+         locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+      }
+    }
 
 
  
