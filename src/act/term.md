@@ -1,5 +1,5 @@
 ---
-icon: lines-leaning
+icon: language
 date: 2018-03-18
 category:
   - term

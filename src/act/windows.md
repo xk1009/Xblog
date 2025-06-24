@@ -32,7 +32,13 @@ tasklist |findstr 进程号
 ## 关闭指定进程
 taskkill /f /m /im 进程号或者进程名称
 
+## 查看ip 
+ipconfig
+
 ## 截图
 win+shift+s
 
-
+## 快速打开
+计算器 calc
+记事本 notepad
+画图   mspaint

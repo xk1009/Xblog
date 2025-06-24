@@ -7,23 +7,27 @@ export default hopeTheme({
 
   hostname: "https://mister-hope.github.io",
   //深色模式切换
-  darkmode:"toggle",
-
+  darkmode: "toggle",
+  //关闭打印
+  print: false,
   //全屏
   fullscreen: true,
 
-    //   watermarkPlugin({
-    //   enabled: true,
-    //   watermarkOptions: {
-    //     content: 'My Site',
-    //   },
-    // }),
+  //专注模式
+  //  focus: true,
+
+  //   watermarkPlugin({
+  //   enabled: true,
+  //   watermarkOptions: {
+  //     content: 'My Site',
+  //   },
+  // }),
 
 
   author: {
     name: "XK",
     url: "https://xk1009.github.io/Xblog",
-    email:"564293991@qq.com"
+    email: "564293991@qq.com"
   },
 
   logo: "/assets/gifs/ys.gif",
@@ -69,22 +73,22 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-   
+
       "/secret/aliyun001.html": {
         hint: "请输入访问密码",
-        password: "123",
+        password: "xk123654",
       },
-       "/secret/aws.html": {
+      "/secret/aws.html": {
         hint: "请输入访问密码",
-        password: "123",
+        password: "xk123654",
       },
       "/act/IOS/superSign.html": {
         hint: "请输入访问密码",
-        password: "123",
+        password: "1xk123654",
       },
-       "/act/ninePay.html": {
+      "/act/ninePay.html": {
         hint: "请输入访问密码",
-        password: "123",
+        password: "xk123654",
       },
     },
   },
@@ -205,20 +209,20 @@ export default hopeTheme({
       },
     },
 
-    search:{
-         locales: {
+    search: {
+      locales: {
         '/': {
           placeholder: '搜索',
         },
       }
     },
 
-    
 
 
- 
 
-    
+
+
+
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
@@ -277,3 +281,39 @@ export default hopeTheme({
     // },
   },
 });
+
+
+export declare const setupSnowFall: (options: {
+  /**
+   * 雪花的图片文件
+   */
+  image?: string;
+
+  /**
+   * 雪花数量
+   *
+   * @default 25
+   */
+  count?: number;
+
+  /**
+   * 雪花的最小大小 (像素)
+   *
+   * @default 5
+   */
+  minSize?: number;
+
+  /**
+   * 雪花的最大大小 (像素)
+   *
+   * @default 10
+   */
+  maxSize?: number;
+
+  /**
+   * 雪花的下落速度
+   *
+   * @default 1
+   */
+  speed?: number;
+}) => void;

@@ -23,6 +23,10 @@
     "vuepress-theme-hope": "2.0.0-rc.92"
   },
   "dependencies": {
-    "@vuepress/plugin-search": "^2.0.0-rc.107"
+    "@vuepress/plugin-search": "^2.0.0-rc.107",
+    "dashjs": "^4.7.4",
+    "hls.js": "^1.6.5",
+    "mpegts.js": "^1.8.0",
+    "vidstack": "^1.12.13"
   }
 }
