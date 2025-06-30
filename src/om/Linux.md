@@ -1,5 +1,5 @@
 ---
-icon: file
+icon: l
 date: 2024-08-25
 category:
   - O&M
