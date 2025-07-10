@@ -1,6 +1,5 @@
 ---
 icon: chart-line
-date: 2019-11-22
 category:
   - java
   - activit

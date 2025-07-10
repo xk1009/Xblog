@@ -1,6 +1,5 @@
 ---
 icon: table
-date: 2024-09-23
 category:
   - 数据
   - mysql
@@ -21,7 +20,7 @@ pageview: true
 * MyISAM 不支持外键，不支持事务，表锁定，缓存只缓存索引，相较性能高
 * innodb 支持外键，支持事务，行锁定，缓存索引还缓存真实数据（内存要求较高），相较性能低
 
-## mysql 索引
+## 索引
 一种是hash索引和B+tree索引，使用的是innodb引擎，默认B+tree
 
 ### hash索引
@@ -90,17 +89,6 @@ AND
 table_name  = 'user_read_record'
 ```
 
-## sql优化
-1. 避免select * 增加查询解析器的成本，将sql格式化的一个阶段，所有字段都会拿出来不会走覆盖索引，查询到联合索引之外的字段，会进行回表操作，大文本字段增加网络消耗
-2. 小表驱动大表
-3. 连接查询代替子查询 
-4. group by 可以添加索引
-5. 批量插入，循环插入较慢，可以使用一条sql 批量插入，动态sql控制在500内
-6. 大数据使用limit ，不要一次性查出，可能导致内存异常
-7. 用union all 代替union  union会去重
-8. join的表不宜过多（小表连大表）
-### delete 和 update 语句后加 limit
-在业务场景要求高的数据库中，对于单条删除和更新操作，在 delete 和 update 后面加 limit 1 绝对是个好习惯。比如，在删除执行中，第一条就命中了删除行，如果 SQL 中有 limit 1；这时就 return 了，否则还会执行完全表扫描才 return。效率不言而喻
 
 ## 主从配置
 ![主库配置](./assets/mysql06.jpg)

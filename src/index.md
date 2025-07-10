@@ -17,27 +17,27 @@ copyright: Copyright © XK
 projects:
   - icon: mug-hot
     name: JAVA
-    desc: java
+    desc: “神啊，让我中彩票吧！”→ 编译失败：Error:未声明的依赖项(烧香模块未安装):ml-citation{ref="6" data="citationList"}
     link: /java/
 
   - icon: eye
     name: 前端
-    desc: 前端知识汇总
+    desc: “用jQuery吧，简单”“太老了，用Vue！”“React才是未来！”老板：“下午上线，你们用原生JS吧”
     link: /frontEnd/
 
   - icon: database
     name: 数据
-    desc: 数据库知识汇总
+    desc: SELECT * FROM 生活 WHERE 幸福=1；查无结果...；原来忘记加索引了😂
     link: /data/
 
   - icon: om
     name: O&M
-    desc: 运维知识汇总
+    desc: 老板说了，系统要保证99.99%可用性
     link: /om/
 
   - icon: newspaper
     name: 文章
-    desc: 随便写写
+    desc: 时间相对论：开发预估时长=实际耗时×π（圆周率随需求变更次数动态增长）
     link: /act/
 
   # - icon: svg-spinners:wind-toy

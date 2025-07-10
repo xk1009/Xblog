@@ -1,6 +1,5 @@
 ---
 icon: cash-register
-date: 2024-07-11
 category:
   - java
   - foundation

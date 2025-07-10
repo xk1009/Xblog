@@ -1,6 +1,5 @@
 ---
 icon: grip-lines
-date: 2018-08-15
 category:
   - java
   - foundation

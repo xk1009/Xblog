@@ -1,6 +1,5 @@
 ---
 icon: v
-date: 2021-07-21
 category:
   - frontEnd
   - vue

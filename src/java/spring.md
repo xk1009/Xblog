@@ -1,6 +1,5 @@
 ---
 icon: tree
-date: 2019-12-23
 category:
   - java
   - foundation
