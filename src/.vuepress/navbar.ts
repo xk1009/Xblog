@@ -7,17 +7,17 @@ export default navbar([
     icon: "id-card",
     link: "/intro",
   },
-  "/java/",
-  "/frontEnd/", 
-  "/data/",
-  "/om/",
+  "/programming/",
+  "/frontEnd/frontEnd/", 
+  "/data/Data/",
+  "/om/O&M/",
   // {
   //   text: "文档",
   //   icon: "line-md:document-list-twotone",
   //   link: "https://theme-hope.vuejs.press/zh/",
   // },
-  "/act/",
-  "/secret/",
+  "/art/article/",
+  "/secret/secret/",
 ]);
 
 

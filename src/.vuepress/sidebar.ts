@@ -13,10 +13,10 @@ export default sidebar({
     //   children: "structure",
     // },
     {
-      text: "java",
-      icon: "mug-hot",
-      prefix: "java/",
-      link: "java/",
+      text: "programming",
+      icon: "computer",
+      prefix: "programming/",
+      link: "programming/",
       children: "structure",
     },
         {
@@ -49,8 +49,8 @@ export default sidebar({
     {
       text: "文章",
       icon: "newspaper",
-      prefix: "act/",
-      link: "act/",
+      prefix: "art/",
+      link: "art/",
       children: "structure",
     },
     {

@@ -1,5 +1,5 @@
 ---
-icon: chart-line
+icon: n
 category:
   - nginx
   - O&M
@@ -188,4 +188,29 @@ any – 无条件压缩所有结果数据
 	gzip_proxied any;
 ```
 
-## 常用
+## 常用命令
+* 重启nginx 在nginx目录下 ./nginx -s reload
+* 测试加载配置文件 ./nginx -t
+* ./nginx
+* ./nginx -s stop  # 此方式相当于先查出nginx进程id再使用kill命令强制杀掉进程。
+* ./nginx -s quit   # 此方式停止步骤是待nginx进程处理任务完毕进行停止。
+* ./nginx -s reload  #启动
+
+## 安装
+
+1. 下载 解压
+2. cd到解压目录 
+3. 执行./configure 
+
+若出现：
+./configure: error: the HTTP rewrite module requires the PCRE library. You can either disable the module by using --without-http_rewrite_module option, or install the PCRE library into the system, or build the PCRE library statically from the source with 
+
+执行 yum -y install pcre-devel
+
+若出现：
+./configure: error: the HTTP gzip module requires the zlib library.
+You can either disable the module by using --without-http_gzip_module
+option, or install the zlib library into the system, or build the zlib library
+statically from the source with nginx by using --with-zlib=path option.
+
+执行 yum install -y zlib-devel

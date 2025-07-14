@@ -1,9 +1,9 @@
 ---
-title: JAVA
+title: java
 index: false
-icon: skill-icons:java-light
+icon: mug-hot
 category:
-  - java
+  - program
 ---
 
 Write Once, Run Anywhere

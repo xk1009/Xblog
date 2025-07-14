@@ -10,7 +10,7 @@ tag:
   - 记录
 
 title:  Linux 
-star: true
+
 pageview: true
 ---
 
